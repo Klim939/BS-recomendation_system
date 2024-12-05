@@ -1,0 +1,116 @@
+[
+  {
+    "customer_id": 1,
+    "name": "Ivan Ivanov",
+    "sizes": ["S", "M", "L"],
+    "purchases": [{
+      "id": "001",
+      "name": "Cashmere Sweater",
+      "color": "Beige",
+      "fabrics": "Cashmere",
+      "size": ["S", "M", "L", "XL"],
+      "price": 42000,
+      "category": "Sweaters"
+    },
+    {
+      "id": "002",
+      "name": "Cotton Shirt",
+      "color": "White",
+      "fabrics": "Cotton",
+      "size": ["S", "M", "L", "XL"],
+      "price": 15000,
+      "category": "Shirts"
+    },
+    {
+      "id": "003",
+      "name": "Linen Trousers",
+      "color": "Olive",
+      "fabrics": "Linen",
+      "size": ["S", "M", "L", "XL"],
+      "price": 28000,
+      "category": "Trousers"
+    }]
+  },
+  {
+    "customer_id": 2,
+    "name": "Anastasia Kochuneva",
+    "sizes": ["M", "L"],
+    "purchases": [{
+      "id": "005",
+      "name": "Cotton Polo Shirt",
+      "color": "Navy Blue",
+      "fabrics": "Cotton",
+      "size": ["S", "M", "L", "XL"],
+      "price": 18000,
+      "category": "Shirts"
+    },
+    {
+      "id": "006",
+      "name": "Linen Shirt",
+      "color": "Light Blue",
+      "fabrics": "Linen",
+      "size": ["S", "M", "L", "XL"],
+      "price": 20000,
+      "category": "Shirts"
+    },
+    {
+      "id": "007",
+      "name": "Cashmere Cardigan",
+      "color": "Charcoal",
+      "fabrics": "Cashmere",
+      "size": ["S", "M", "L", "XL"],
+      "price": 55000,
+      "category": "Outerwear"
+    },
+    {
+      "id": "008",
+      "name": "Cotton Chinos",
+      "color": "Khaki",
+      "fabrics": "Cotton",
+      "size": ["S", "M", "L", "XL"],
+      "price": 23000,
+      "category": "Trousers"
+    },
+    {
+      "id": "009",
+      "name": "Linen Blazer",
+      "color": "Beige",
+      "fabrics": "Linen",
+      "size": ["S", "M", "L", "XL"],
+      "price": 65000,
+      "category": "Outerwear"
+    },
+    {
+      "id": "010",
+      "name": "Cashmere Overcoat",
+      "color": "Black",
+      "fabrics": "Cashmere",
+      "size": ["S", "M", "L", "XL"],
+      "price": 120000,
+      "category": "Outerwear"
+    },
+    {
+      "id": "011",
+      "name": "Cotton Sweatshirt",
+      "color": "Light Gray",
+      "fabrics": "Cotton",
+      "size": ["S", "M", "L", "XL"],
+      "price": 20000,
+      "category": "Sweaters"
+    }]
+  },
+  {
+    "customer_id": 3,
+    "name": "Elizaveta Petropavlovna",
+    "sizes": ["XS", "S"],
+    "purchases": [{
+      "id": "018",
+      "name": "Linen Skirt",
+      "color": "Tan",
+      "fabrics": "Linen",
+      "size": ["S", "M", "L", "XL"],
+      "price": 25000,
+      "category": "Skirts"
+    }]
+  }
+]

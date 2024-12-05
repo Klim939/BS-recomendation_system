@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Данные клиента и история покупок</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключение CSS для стилизации -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .customer-info, .purchase-history, .available-models {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Данные клиента</h1>
+    <div class="customer-info">
+        <p><strong>Имя:</strong> {{name}}</p>
+        <p><strong>Размеры:</strong> {{sizes | join(', ')}}</p>
+    </div>
+
+    <h2>Рекомендации</h2>
+    <div class="purchase-history">
+        <table>
+            <thead>
+                <tr>
+                    <th>Название модели</th>
+                    <th>Размер</th>
+                    <th>Цвет</th>
+                    <th>Категория</th>
+                    <th>Материал</th>
+                    <th>Цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for model in recommendations %}
+                    <tr>
+                        <td>{{ model.name }}</td>
+                        <td>{{ model.size | join(', ') }}</td>
+                        <td>{{ model.color }}</td>
+                        <td>{{ model.category }}</td>
+                        <td>{{ model.fabrics }}</td>
+                        <td>{{ model.price }} руб.</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Доступные модели, подходящие клиенту</h2>
+  <div class="available-models">
+        <table id="available-models-table">
+            <thead>
+                <tr>
+                    <th>Название модели</th>
+                    <th>Размер</th>
+                    <th>Цвет</th>
+                    <th>Категория</th>
+                    <th>Материал</th>
+                    <th>Цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for model in items %}
+                    <tr>
+                        <td>{{ model.name }}</td>
+                        <td>{{ model.size | join(', ') }}</td>
+                        <td>{{ model.color }}</td>
+                        <td>{{ model.category }}</td>
+                        <td>{{ model.fabrics }}</td>
+                        <td>{{ model.price }} руб.</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

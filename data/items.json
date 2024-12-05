@@ -1,0 +1,228 @@
+[
+    {
+      "id": "001",
+      "name": "Cashmere Sweater",
+      "color": "Beige",
+      "fabrics": "Cashmere",
+      "size": ["S", "M", "L", "XL"],
+      "price": 42000,
+      "category": "Sweaters"
+    },
+    {
+      "id": "002",
+      "name": "Cotton Shirt",
+      "color": "White",
+      "fabrics": "Cotton",
+      "size": ["S", "M", "L", "XL"],
+      "price": 15000,
+      "category": "Shirts"
+    },
+    {
+      "id": "003",
+      "name": "Linen Trousers",
+      "color": "Olive",
+      "fabrics": "Linen",
+      "size": ["S", "M", "L", "XL"],
+      "price": 28000,
+      "category": "Trousers"
+    },
+    {
+      "id": "004",
+      "name": "Cashmere Scarf",
+      "color": "Gray",
+      "fabrics": "Cashmere",
+      "size": ["One Size"],
+      "price": 24000,
+      "category": "Accessories"
+    },
+    {
+      "id": "005",
+      "name": "Cotton Polo Shirt",
+      "color": "Navy Blue",
+      "fabrics": "Cotton",
+      "size": ["S", "M", "L", "XL"],
+      "price": 18000,
+      "category": "Shirts"
+    },
+    {
+      "id": "006",
+      "name": "Linen Shirt",
+      "color": "Light Blue",
+      "fabrics": "Linen",
+      "size": ["S", "M", "L", "XL"],
+      "price": 20000,
+      "category": "Shirts"
+    },
+    {
+      "id": "007",
+      "name": "Cashmere Cardigan",
+      "color": "Charcoal",
+      "fabrics": "Cashmere",
+      "size": ["S", "M", "L", "XL"],
+      "price": 55000,
+      "category": "Outerwear"
+    },
+    {
+      "id": "008",
+      "name": "Cotton Chinos",
+      "color": "Khaki",
+      "fabrics": "Cotton",
+      "size": ["S", "M", "L", "XL"],
+      "price": 23000,
+      "category": "Trousers"
+    },
+    {
+      "id": "009",
+      "name": "Linen Blazer",
+      "color": "Beige",
+      "fabrics": "Linen",
+      "size": ["S", "M", "L", "XL"],
+      "price": 65000,
+      "category": "Outerwear"
+    },
+    {
+      "id": "010",
+      "name": "Cashmere Overcoat",
+      "color": "Black",
+      "fabrics": "Cashmere",
+      "size": ["S", "M", "L", "XL"],
+      "price": 120000,
+      "category": "Outerwear"
+    },
+    {
+      "id": "011",
+      "name": "Cotton Sweatshirt",
+      "color": "Light Gray",
+      "fabrics": "Cotton",
+      "size": ["S", "M", "L", "XL"],
+      "price": 20000,
+      "category": "Sweaters"
+    },
+    {
+      "id": "012",
+      "name": "Linen Shorts",
+      "color": "White",
+      "fabrics": "Linen",
+      "size": ["S", "M", "L", "XL"],
+      "price": 15000,
+      "category": "Shorts"
+    },
+    {
+      "id": "013",
+      "name": "Cashmere Hoodie",
+      "color": "Dark Blue",
+      "fabrics": "Cashmere",
+      "size": ["S", "M", "L", "XL"],
+      "price": 42000,
+      "category": "Sweaters"
+    },
+    {
+      "id": "014",
+      "name": "Cotton Tracksuit",
+      "color": "Black",
+      "fabrics": "Cotton",
+      "size": ["S", "M", "L", "XL"],
+      "price": 35000,
+      "category": "Sportswear"
+    },
+    {
+      "id": "015",
+      "name": "Linen Dress",
+      "color": "Cream",
+      "fabrics": "Linen",
+      "size": ["S", "M", "L", "XL"],
+      "price": 30000,
+      "category": "Dresses"
+    },
+    {
+      "id": "016",
+      "name": "Cashmere Shawl",
+      "color": "Pink",
+      "fabrics": "Cashmere",
+      "size": ["One Size"],
+      "price": 22000,
+      "category": "Accessories"
+    },
+    {
+      "id": "017",
+      "name": "Cotton Tank Top",
+      "color": "Red",
+      "fabrics": "Cotton",
+      "size": ["S", "M", "L", "XL"],
+      "price": 10000,
+      "category": "Tops"
+    },
+    {
+      "id": "018",
+      "name": "Linen Skirt",
+      "color": "Tan",
+      "fabrics": "Linen",
+      "size": ["S", "M", "L", "XL"],
+      "price": 25000,
+      "category": "Skirts"
+    },
+    {
+      "id": "019",
+      "name": "Cashmere Gloves",
+      "color": "Black",
+      "fabrics": "Cashmere",
+      "size": ["One Size"],
+      "price": 15000,
+      "category": "Accessories"
+    },
+    {
+      "id": "020",
+      "name": "Cotton Socks (5-Pack)",
+      "color": "White",
+      "fabrics": "Cotton",
+      "size": ["One Size"],
+      "price": 5000,
+      "category": "Accessories"
+    },
+    {
+      "id": "021",
+      "name": "Linen Jacket",
+      "color": "Gray",
+      "fabrics": "Linen",
+      "size": ["S", "M", "L", "XL"],
+      "price": 45000,
+      "category": "Outerwear"
+    },
+    {
+      "id": "022",
+      "name": "Cashmere Sweater Vest",
+      "color": "Navy",
+      "fabrics": "Cashmere",
+      "size": ["S", "M", "L", "XL"],
+      "price": 38000,
+      "category": "Sweaters"
+    },
+    {
+      "id": "023",
+      "name": "Cotton Bermuda Shorts",
+      "color": "Beige",
+      "fabrics": "Cotton",
+      "size": ["S", "M", "L", "XL"],
+      "price": 17000,
+      "category": "Shorts"
+    },
+    {
+      "id": "024",
+      "name": "Linen Tunic",
+      "color": "Black",
+      "fabrics": "Linen",
+      "size": ["S", "M", "L", "XL"],
+      "price": 22000,
+      "category": "Tops"
+    },
+    {
+      "id": "025",
+      "name": "Cashmere Blanket",
+      "color": "Ivory",
+      "fabrics": "Cashmere",
+      "size": ["One Size"],
+      "price": 50000,
+      "category": "Home"
+    }
+]
+
